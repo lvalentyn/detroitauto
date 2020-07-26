@@ -1,3 +1,25 @@
+// <!-- script for dropdown menu -->
+var dropdown = document.querySelector(".dropdown__menu");
+var button = document.querySelector(".menu");
+
+function menu() {
+	if (dropdown.style.display === "grid") {
+		dropdown.style.display = "none";
+		button.innerHTML = "menu";
+	} else {
+		dropdown.style.display = "grid";
+		button.innerHTML = "close";
+	}
+}
+
+addEventListener("resize", function () {
+	if (window.innerWidth > 600) {
+		dropdown.style.display = "none";
+		button.innerHTML = "menu";
+	}
+})
+
+
 const slider = document.querySelector('.swiper-container');
 const sliderDetroitNum = document.querySelector('.swiper-container_detroit-in-num');
 let mySwiper = new Swiper(slider, {
