@@ -1,3 +1,10 @@
+// navmenu
+window.addEventListener('scroll', function () {
+	var headerInner = document.querySelector('.headerInner');
+	headerInner.classList.toggle('sticky', window.scrollY > 0);
+})
+
+
 // <!-- script for dropdown menu -->
 var dropdown = document.querySelector(".dropdown__menu");
 var button = document.querySelector(".menu");
@@ -20,15 +27,13 @@ addEventListener("resize", function () {
 })
 
 
-const slider = document.querySelector('.swiper-container');
-const sliderDetroitNum = document.querySelector('.swiper-container_detroit-in-num');
-let mySwiper = new Swiper(slider, {
-	slidesPerView: 2,
+var mySwiperAutoUsa = new Swiper('.auto_from_usa-swiper', {
+	slidesPerView: 3,
 	spaceBetween: 20,
 	loop: true,
 	speed: 900,
 	autoplay: {
-		delay: 10000,
+		delay: 3000,
 	},
 	pagination: {
 		el: '.swiper-pagination',
@@ -62,13 +67,36 @@ var mySwiperInNum = new Swiper('.container_detroit-in-num', {
 	},
 
 })
+
+// /* <!-- window 5 --> */
+var mySwiperMachineBrands = new Swiper('.machine-brands__items_slider', {
+	// Optional parameters
+	direction: 'horizontal',
+	loop: true,
+	slidesPerView: 5,
+	speed: 900,
+	spaceBetween: 20,
+	autoplay: {
+		delay: 3000,
+	}
+
+
+})
+
 // /* <!-- window 7 --> */
 
+// $(".tab_item").not(":first").hide();
+// $(".wrapper .tab").click(function () {
+// 	$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
+// 	$(".tab_item").hide().eq($(this).index()).fadeIn()
+// }).eq(0).addClass("active");
+
 $(".tab_item").not(":first").hide();
-$(".wrapper .tab").click(function () {
+$(".wrapper .tab").hover(function () {
 	$(".wrapper .tab").removeClass("active").eq($(this).index()).addClass("active");
 	$(".tab_item").hide().eq($(this).index()).fadeIn()
 }).eq(0).addClass("active");
+
 
 // window 8
 var mySwiperReviews = new Swiper('.container_reviews', {

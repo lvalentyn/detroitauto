@@ -20,70 +20,81 @@
 ===============*/ -->
         <header class="header">
             <div class="container">
+                <div class="window1">
+                    <!-- window 1 -->
+                    <div class="headerInner wow animate__animated animate__fadeInDown">
 
-                <!-- window 1 -->
-                <div class="header-inner  wow animate__animated animate__fadeInDown">
+                        <div class="header-inner-left-part">
+                            <a class="header_logo" href="index.html"><img src="./img/logoHeader.svg" alt="MainLogo"></a>
+
+                            <div class="header__contacts">
+                                <div>
+                                    <p><span class="header__contacts__city">г.Киев</span></p>
+                                    <p><a class="header__contacts__tel" href="tel:380501500501">+38 (050) 150-05-01</a>
+                                    </p>
+                                </div>
+                                <div class="header__contacts__soc">
+                                    <a href="#" class="icon-fb"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="icon-inst"><i class="fab fa-instagram"></i></a>
+                                </div>
 
 
-                    <a class="header_logo" href="index.html"><img src="./img/logoHeader.svg" alt="MainLogo"></a>
 
-                    <div class="header__contacts">
-                        <div>
-                            <p><span class="header__contacts__city">г.Киев</span></p>
-                            <p><a class="header__contacts__tel" href="tel:380501500501">+38 (050) 150-05-01</a></p>
+                            </div>
                         </div>
-                        <div class="header__contacts__soc">
-                            <a href="#" class="icon-fb"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="icon-inst"><i class="fab fa-instagram"></i></a>
-                        </div>
 
+                        <div class="header-inner-right-part">
+                            <a class="header__nav__link" href="#">О нас</a>
+                            <a class="header__nav__link" href="#">Услуги</a>
+                            <a class="header__nav__link" href="#">Автомобили</a>
+                            <a class="header__nav__link" href="#">Преимущества</a>
+                            <a class="header__nav__link" href="#">Отзывы</a>
+                            <a class="header__nav__link" href="#">Контакты</a>
+                        </div>
+                        <div class="nav-offer">
+
+                            <input class="nav-offer-btn" type="submit" name="btn" id="sub-btn"
+                                value="получить предложение">
+
+                        </div>
                         <i class="material-icons menu" onclick="menu()">menu</i>
-
-
+                        <div class="dropdown__menu">
+                            <a class="dropdown__menu__link" href="#">О нас</a>
+                            <a class="dropdown__menu__link" href="#">Услуги</a>
+                            <a class="dropdown__menu__link" href="#">Автомобили</a>
+                            <a class="dropdown__menu__link" href="#">Преимущества</a>
+                            <a class="dropdown__menu__link" href="#">Отзывы</a>
+                            <a class="dropdown__menu__link" href="#">Контакты</a>
+                        </div>
                     </div>
 
-                    <div class="dropdown__menu">
-                        <a class="dropdown__menu__link" href="#">О нас</a>
-                        <a class="dropdown__menu__link" href="#">Услуги</a>
-                        <a class="dropdown__menu__link" href="#">Автомобили</a>
-                        <a class="dropdown__menu__link" href="#">Преимущества</a>
-                        <a class="dropdown__menu__link" href="#">Отзывы</a>
-                        <a class="dropdown__menu__link" href="#">Контакты</a></div>
-                </div>
+                    <div class="header__content">
+                        <div>
+                            <h1 class="header__text__main wow animate__animated animate__fadeInLeftBig">ПОКУПКА<br> И
+                                ДОСТАВКа
+                                АВТО ИЗ США</h1>
+                            <h2 class="header__text__sub wow animate__animated animate__fadeInLeft">Дешевле рынка на
+                                <span class="bou">30 - 60%</span></h2>
+                        </div>
 
-                <div class="header__content">
-                    <div>
-                        <h1 class="header__text__main wow animate__animated animate__fadeInLeftBig">ПОКУПКА<br> И
-                            ДОСТАВКа
-                            АВТО ИЗ США</h1>
-                        <h2 class="header__text__sub wow animate__animated animate__fadeInRight">Дешевле рынка на <span
-                                class="bou">30 - 60%</span></h2>
+
+                        <div class="header__form-offer wow animate__animated animate__fadeInRight">
+                            <p class="header__form-offer__text">Закажите <span class="bou">бесплатную</span>
+                                консультацию
+                                специалиста иполучите <span class="bou">10</span> актуальных
+                                предложений прямо сейчас</p>
+
+
+                            <!-- Написать скрипт для именни - ввод только текст, для телефон - только цифры и символы -->
+                            <form class="header__form-offer__items" action="">
+                                <input class="header__form-inner" type="text" name="name" id="name" placeholder="Имя">
+                                <input class="header__form-inner" type="text" name="tel" id="tel" placeholder="Телефон">
+                                <input class="header__form-inner btn" type="submit" name="btn" id="sub-btn"
+                                    value="получить предложение">
+                            </form>
+
+                        </div>
                     </div>
-                    <div class="header__nav animate__animated animate__fadeInRight">
-                        <a class="header__nav__link" href="#">О нас</a>
-                        <a class="header__nav__link" href="#">Услуги</a>
-                        <a class="header__nav__link" href="#">Автомобили</a>
-                        <a class="header__nav__link" href="#">Преимущества</a>
-                        <a class="header__nav__link" href="#">Отзывы</a>
-                        <a class="header__nav__link" href="#">Контакты</a>
-
-                    </div>
-                </div>
-
-                <div class="header__form-offer">
-                    <p class="header__form-offer__text wow animate__animated animate__fadeInUp">Закажите <span
-                            class="bou">бесплатную</span> консультацию
-                        специалиста иполучите <span class="bou">10</span> актуальных
-                        предложений прямо сейчас</p>
-
-
-                    <!-- Написать скрипт для именни - ввод только текст, для телефон - только цифры и символы -->
-                    <form class="header__form-offer__items  wow animate__animated animate__fadeInUp" action="">
-                        <input class="header__form-inner" type="text" name="name" id="name" placeholder="Имя">
-                        <input class="header__form-inner" type="text" name="tel" id="tel" placeholder="Телефон">
-                        <input class="header__form-inner btn" type="submit" name="btn" id="sub-btn"
-                            value="получить предложение">
-                    </form>
                     <div class="header__offer-info wow animate__animated animate__fadeInUp">
                         <div class="header__offer-info_card">
                             <img src="./img/iconHeader1.svg" alt="">
@@ -97,7 +108,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </header>
 
@@ -120,9 +130,43 @@
                         <!-- slider -->
                         <div class="slider-container">
 
-                            <div class="swiper-container wow animate__animated animate__fadeInUp">
+                            <div class="swiper-container auto_from_usa-swiper wow animate__animated animate__fadeInUp">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide card">
+
+                                        <div class="prices-card">
+                                            <p class="prices-card-title">VW JETTA 2014</p>
+                                            <div class="offers-card">
+                                                <div class="prices-card-offers">
+                                                    <p>Стоимость авто на Аукционе:</p>
+                                                    <p>Аукционный сбор:</p>
+                                                    <p>Доставка в порт Одессы:</p>
+                                                    <p>Таможенные платежи:</p>
+                                                    <p>Разгрузочные работы:</p>
+                                                    <p>Услуги брокера:</p>
+                                                    <p>Итого авто «под ключ»:</p>
+                                                    <p>Цена такого же авто в Украине:</p>
+                                                </div>
+                                                <div class="prices-card-prices">
+                                                    <p>2.230$</p>
+                                                    <p>420$</p>
+                                                    <p>1.250$</p>
+                                                    <p>1.195$</p>
+                                                    <p>300$</p>
+                                                    <p>300$</p>
+                                                    <p>5.695$</p>
+                                                    <p>11.500$</p>
+                                                </div>
+                                            </div>
+                                            <div class="prices-card-economy">
+                                                <p class="economy">Экономия:</p>
+                                                <p class="economy-price">$5.805 (50%)</p>
+                                            </div>
+                                            <a class="offers-card-btn btn" href="#">Хочу такую же</a>
+                                        </div>
+
+
+
                                         <div class="photocontainer1">
                                             <p class="card-title">Ford Fusion</p>
                                             <p class="card-subtitle">2015</p>
@@ -138,6 +182,38 @@
                                         <a class="card-btn btn" href="#">Хочу такую же</a>
                                     </div>
                                     <div class="swiper-slide card">
+
+                                        <div class="prices-card">
+                                            <p class="prices-card-title">VW JETTA 2014</p>
+                                            <div class="offers-card">
+                                                <div class="prices-card-offers">
+                                                    <p>Стоимость авто на Аукционе:</p>
+                                                    <p>Аукционный сбор:</p>
+                                                    <p>Доставка в порт Одессы:</p>
+                                                    <p>Таможенные платежи:</p>
+                                                    <p>Разгрузочные работы:</p>
+                                                    <p>Услуги брокера:</p>
+                                                    <p>Итого авто «под ключ»:</p>
+                                                    <p>Цена такого же авто в Украине:</p>
+                                                </div>
+                                                <div class="prices-card-prices">
+                                                    <p>2.230$</p>
+                                                    <p>420$</p>
+                                                    <p>1.250$</p>
+                                                    <p>1.195$</p>
+                                                    <p>300$</p>
+                                                    <p>300$</p>
+                                                    <p>5.695$</p>
+                                                    <p>11.500$</p>
+                                                </div>
+                                            </div>
+                                            <div class="prices-card-economy">
+                                                <p class="economy">Экономия:</p>
+                                                <p class="economy-price">$5.805 (50%)</p>
+                                            </div>
+                                            <a class="offers-card-btn btn" href="#">Хочу такую же</a>
+                                        </div>
+
                                         <div class="photocontainer2">
                                             <p class="card-title">Chevrolet Colorado</p>
                                             <p class="card-subtitle">2020</p>
@@ -153,6 +229,38 @@
                                         <a class="card-btn btn" href="#">Хочу такую же</a>
                                     </div>
                                     <div class="swiper-slide card">
+
+                                        <div class="prices-card">
+                                            <p class="prices-card-title">VW JETTA 2014</p>
+                                            <div class="offers-card">
+                                                <div class="prices-card-offers">
+                                                    <p>Стоимость авто на Аукционе:</p>
+                                                    <p>Аукционный сбор:</p>
+                                                    <p>Доставка в порт Одессы:</p>
+                                                    <p>Таможенные платежи:</p>
+                                                    <p>Разгрузочные работы:</p>
+                                                    <p>Услуги брокера:</p>
+                                                    <p>Итого авто «под ключ»:</p>
+                                                    <p>Цена такого же авто в Украине:</p>
+                                                </div>
+                                                <div class="prices-card-prices">
+                                                    <p>2.230$</p>
+                                                    <p>420$</p>
+                                                    <p>1.250$</p>
+                                                    <p>1.195$</p>
+                                                    <p>300$</p>
+                                                    <p>300$</p>
+                                                    <p>5.695$</p>
+                                                    <p>11.500$</p>
+                                                </div>
+                                            </div>
+                                            <div class="prices-card-economy">
+                                                <p class="economy">Экономия:</p>
+                                                <p class="economy-price">$5.805 (50%)</p>
+                                            </div>
+                                            <a class="offers-card-btn btn" href="#">Хочу такую же</a>
+                                        </div>
+
                                         <div class="photocontainer1">
                                             <p class="card-title">Ford Fusion</p>
                                             <p class="card-subtitle">2015</p>
@@ -168,6 +276,39 @@
                                         <a class="card-btn btn" href="#">Хочу такую же</a>
                                     </div>
                                     <div class="swiper-slide card">
+
+                                        <div class="prices-card">
+                                            <p class="prices-card-title">VW JETTA 2014</p>
+                                            <div class="offers-card">
+                                                <div class="prices-card-offers">
+                                                    <p>Стоимость авто на Аукционе:</p>
+                                                    <p>Аукционный сбор:</p>
+                                                    <p>Доставка в порт Одессы:</p>
+                                                    <p>Таможенные платежи:</p>
+                                                    <p>Разгрузочные работы:</p>
+                                                    <p>Услуги брокера:</p>
+                                                    <p>Итого авто «под ключ»:</p>
+                                                    <p>Цена такого же авто в Украине:</p>
+                                                </div>
+                                                <div class="prices-card-prices">
+                                                    <p>2.230$</p>
+                                                    <p>420$</p>
+                                                    <p>1.250$</p>
+                                                    <p>1.195$</p>
+                                                    <p>300$</p>
+                                                    <p>300$</p>
+                                                    <p>5.695$</p>
+                                                    <p>11.500$</p>
+                                                </div>
+                                            </div>
+                                            <div class="prices-card-economy">
+                                                <p class="economy">Экономия:</p>
+                                                <p class="economy-price">$5.805 (50%)</p>
+                                            </div>
+                                            <a class="offers-card-btn btn" href="#">Хочу такую же</a>
+                                        </div>
+
+
                                         <div class="photocontainer2">
                                             <p class="card-title">Chevrolet Colorado</p>
                                             <p class="card-subtitle">2020</p>
@@ -188,36 +329,7 @@
                                 <button class="swiper-button-next swiper-button-next1"></button>
                             </div>
                         </div><!-- slider -->
-                        <div class="prices-card wow animate__animated animate__fadeInUp">
-                            <p class="prices-card-title">VW JETTA 2014</p>
-                            <div class="offers-card">
-                                <div class="prices-card-offers">
-                                    <p>Стоимость авто на Аукционе:</p>
-                                    <p>Аукционный сбор:</p>
-                                    <p>Доставка в порт Одессы:</p>
-                                    <p>Таможенные платежи:</p>
-                                    <p>Разгрузочные работы:</p>
-                                    <p>Услуги брокера:</p>
-                                    <p>Итого авто «под ключ»:</p>
-                                    <p>Цена такого же авто в Украине:</p>
-                                </div>
-                                <div class="prices-card-prices">
-                                    <p>2.230$</p>
-                                    <p>420$</p>
-                                    <p>1.250$</p>
-                                    <p>1.195$</p>
-                                    <p>300$</p>
-                                    <p>300$</p>
-                                    <p>5.695$</p>
-                                    <p>11.500$</p>
-                                </div>
-                            </div>
-                            <div class="prices-card-economy">
-                                <p class="economy">Экономия:</p>
-                                <p class="economy-price">$5.805 (50%)</p>
-                            </div>
-                            <a class="offers-card-btn btn" href="#">Хочу такую же</a>
-                        </div>
+
                     </div>
                 </div>
             </div>
@@ -243,8 +355,8 @@
                                     контрольируем на каждом этапе транспортировки.</p>
                                 <div class="detroit-in-num_content_stats">
                                     <div class="detroit-in-num_content_stat1">
-                                        <p class="detroit-in-num_content_stat_quantity o">20</p>
-                                        <p class="detroit-in-num_content_stat_quantity_text o">Столько автомобилей мы
+                                        <p class="detroit-in-num_content_stat_quantity">20</p>
+                                        <p class="detroit-in-num_content_stat_quantity_text">Столько автомобилей мы
                                             доставляем ежемесячно за свой счёт</p>
                                     </div>
                                     <div class="detroit-in-num_content_stat2">
@@ -292,593 +404,548 @@
                                 <!-- slider   -->
                             </div>
                         </div>
-                        <!--  </div>  -->
-                    </div>
 
-                    <!-- window 4 -->
-                    <div class="convenient-way__container">
-                        <div class="container">
-                            <p class="convenient-way__container__title wow animate__animated animate__fadeInLeftBig">ВЫ
-                                МОЖЕТЕ ВЫБРАТЬ НАИБОЛЕЕ УДОБНЫЙ СПОСОБ
-                                СОТРУДНИЧЕСТВА
+                    </div>
+                </div>
+            </div>
+            <!-- window 4 -->
+            <div class="convenient-way__container">
+                <div class="container">
+                    <p class="convenient-way__container__title wow animate__animated animate__fadeInLeftBig">ВЫ
+                        МОЖЕТЕ ВЫБРАТЬ НАИБОЛЕЕ УДОБНЫЙ СПОСОБ
+                        СОТРУДНИЧЕСТВА
+                    </p>
+                    <div class="convenient-way__container__cards wow animate__animated animate__fadeInUp">
+                        <div class="convenient-way__container__card">
+                            <p class="convenient-way__container__card__title">Авто под заказ</p>
+                            <p class="convenient-way__container__card__text">Наши специалисты помогут подобрать
+                                автомобиль вашей мечты на аукционных
+                                площадках в США</p>
+                            <a class="convenient-way__container__card__btn btn" href="#">получить
+                                консультацию</a>
+                        </div>
+                        <div class="convenient-way__container__card">
+                            <p class="convenient-way__container__card__title">Авто в пути</p>
+                            <p class="convenient-way__container__card__text">Все автомобили прошли проверку,
+                                впереди
+                                процесс
+                                проверки после доставки, постановление на учет</p>
+                            <a class="convenient-way__container__card__btn btn" href="#">получить
+                                консультацию</a>
+                        </div>
+                        <div class="convenient-way__container__card">
+                            <p class="convenient-way__container__card__title">Авто в наличии</p>
+                            <p class="convenient-way__container__card__text">Все автомобили прошли проверку,
+                                растаможены, поставлены на учет и
+                                готовы к продаже
                             </p>
-                            <div class="convenient-way__container__cards wow animate__animated animate__fadeInUp">
-                                <div class="convenient-way__container__card">
-                                    <p class="convenient-way__container__card__title">Авто под заказ</p>
-                                    <p class="convenient-way__container__card__text">Наши специалисты помогут подобрать
-                                        автомобиль вашей мечты на аукционных
-                                        площадках в США</p>
-                                    <a class="convenient-way__container__card__btn btn" href="#">получить
-                                        консультацию</a>
-                                </div>
-                                <div class="convenient-way__container__card">
-                                    <p class="convenient-way__container__card__title">Авто в пути</p>
-                                    <p class="convenient-way__container__card__text">Все автомобили прошли проверку,
-                                        впереди
-                                        процесс
-                                        проверки после доставки, постановление на учет</p>
-                                    <a class="convenient-way__container__card__btn btn" href="#">получить
-                                        консультацию</a>
-                                </div>
-                                <div class="convenient-way__container__card">
-                                    <p class="convenient-way__container__card__title">Авто в наличии</p>
-                                    <p class="convenient-way__container__card__text">Все автомобили прошли проверку,
-                                        растаможены, поставлены на учет и
-                                        готовы к продаже
-                                    </p>
-                                    <a class="convenient-way__container__card__btn btn" href="#">получить
-                                        консультацию</a>
-                                </div>
-                            </div>
-
-                            <p class="comp-service__container_title wow animate__animated animate__fadeInLeftBig">
-                                СОПУТСВУЮЩИЕ УСЛУГИ НАШЕЙ КОМПАНИИ</p>
-                            <div class="comp-service__container__cards">
-                                <div class="comp-service__container__card wow animate__animated animate__fadeInLeft">
-                                    <p class="comp-service__container__card__title">Поможем продать
-                                        ваше личное Авто</p>
-                                    <p class="comp-service__container__card__text">Наши специалисты с радость
-                                        проконсультируют
-                                        Вас
-                                        по поводу продажи вашего старого авто. Сопровождаем на каждом этапе сделки.</p>
-                                    <a class="comp-service__container__card__btn btn" href="#">получить консультацию</a>
-                                </div>
-                                <div class="comp-service__container__card wow animate__animated animate__fadeInRight">
-                                    <p class="comp-service__container__card__title">Подберем запчасти на любое Авто</p>
-                                    <p class="comp-service__container__card__text">Поможем подобрать любую запчать для
-                                        вашего
-                                        автомобиля,
-                                        оформить доставку из США и осуществить установку новой детали.</p>
-                                    <a class="comp-service__container__card__btn btn" href="#">получить консультацию</a>
-                                </div>
-                            </div>
+                            <a class="convenient-way__container__card__btn btn" href="#">получить
+                                консультацию</a>
                         </div>
                     </div>
 
-                    <!-- window 5 -->
-                    <div class="machine-brands">
-                        <div class="container">
-                            <p class="machine-brands__title wow animate__animated animate__fadeInLeftBig">МАРКИ МАШИН
-                                КОТОРЫЕ МЫ МОЖЕМ ДОСТАВИТЬ СПЕЦИЛЬНО ДЛЯ ВАС</p>
-                            <div class="machine-brands__items wow animate__animated animate__fadeInRight">
-                                <a class="machine-brands__item" href="#">
-                                    <img class="iconAuto" src="./img/iconAuto.png" alt="iconAuto">
-                                    <!-- <p class="machine-brands__item__text">Автомобили</p> -->
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <img class="iconBike" src="./img/iconBike.png" alt="iconBike">
-                                    <!-- <p class="machine-brands__item__text">Мотоциклы</p> -->
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <img class="iconQuadroBike" src="./img/iconQuadroBike.png" alt="iconQuadroBike">
-                                    <!-- <p class="machine-brands__item__text">Квадроциклы</p> -->
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <img class="iconBoat" src="./img/iconBoat.png" alt="iconBoat">
-                                    <!-- <p class="machine-brands__item__text">Водный транспорт</p> -->
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <img class="iconWaterBike" src="./img/iconWaterBike.png" alt="iconWaterBike">
-                                    <!-- <p class="machine-brands__item__text">Гидроциклы</p> -->
-                                </a>
-                            </div>
-                            <div class="machine-brands__items wow animate__animated animate__fadeInLeft">
-                                <a class="machine-brands__item" href="#">
-                                    <!-- <img class="iconAuto" src="./img/iconAuto.png" alt="iconAuto"> -->
-                                    <p class="machine-brands__item__text">Автомобили</p>
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <!-- <img class="iconBike" src="./img/iconBike.png" alt="iconBike"> -->
-                                    <p class="machine-brands__item__text">Мотоциклы</p>
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <!-- <img class="iconQuadroBike" src="./img/iconQuadroBike.png" alt="iconQuadroBike"> -->
-                                    <p class="machine-brands__item__text">Квадроциклы</p>
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <!-- <img class="iconBoat" src="./img/iconBoat.png" alt="iconBoat"> -->
-                                    <p class="machine-brands__item__text">Водный транспорт</p>
-                                </a>
-                                <a class="machine-brands__item" href="#">
-                                    <!-- <img class="iconWaterBike" src="./img/iconWaterBike.png" alt="iconWaterBike"> -->
-                                    <p class="machine-brands__item__text">Гидроциклы</p>
-                                </a>
-                            </div>
-                            <!-- machine-brands__form -->
-                            <div class="machine-brands__form__container">
-                                <img class="machine-brands__form_img1 wow animate__animated animate__fadeInRightBig"
-                                    src="./img/bg__machine-brands__form1.png" alt="">
-                                <img class="machine-brands__form_img2 wow animate__animated animate__fadeInRightBig"
-                                    src="./img/bg__machine-brands__form2.png" alt="">
-                                <p class="machine-brands__form__title wow animate__animated animate__fadeInLeftBig">
-                                    ДАВНО
-                                    СМОТРИТЕ В СТОРОНУ НОВОЙ МАШИНЫ, НО СТАРАЯ ВСЕ
-                                    ЕЩЕ
-                                    НА
-                                    ХОДУ
-                                    И НЕТ ДЕНЕГ НА ПЕРВЫЙ ВЗНОС?</p>
-                                <p class="machine-brands__form__text wow animate__animated animate__fadeInLeft">Каждую
-                                    неделю мы получаем <span class="bou">+1305</span>
-                                    обновления новых предложений
-                                    по
-                                    покупке или продажи авто!</p>
-                                <p class="machine-brands__form__text wow animate__animated animate__fadeInLeft">Закажите
-                                    <span class="bou">БЕСПЛАТНУЮ</span>
-                                    консультацию
-                                    специалист и узнайте, во
-                                    сколько
-                                    обойдется Вам первый взнос за авто Вашей мечты с возможность продажи собственного
-                                    автомобиля.
-                                </p>
-                                <p class="machine-brands__form__subtitle wow animate__animated animate__fadeInLeft">
-                                    Заполните форму ниже и получите консультацию в
-                                    течении
-                                    <span class="bou">30</span>
-                                    минут
-                                </p>
-                                <form class="machine-brands__form__items wow animate__animated animate__fadeInUp"
-                                    action="">
-                                    <input class="machine-brands__form-inner" type="text" name="name" id="name"
-                                        placeholder="Имя">
-                                    <input class="machine-brands__form-inner" type="text" name="tel" id="tel"
-                                        placeholder="Телефон">
-                                    <input class="machine-brands__form-inner_btn btn " type="submit" name="btn"
-                                        id="sub-btn" value="получить предложение">
-                                </form>
-                            </div>
+                    <p class="comp-service__container_title wow animate__animated animate__fadeInLeftBig">
+                        СОПУТСВУЮЩИЕ УСЛУГИ НАШЕЙ КОМПАНИИ</p>
+                    <div class="comp-service__container__cards">
+                        <div class="comp-service__container__card wow animate__animated animate__fadeInLeft">
+                            <p class="comp-service__container__card__title">Поможем продать
+                                ваше личное Авто</p>
+                            <p class="comp-service__container__card__text">Наши специалисты с радость
+                                проконсультируют
+                                Вас
+                                по поводу продажи вашего старого авто. Сопровождаем на каждом этапе сделки.</p>
+                            <a class="comp-service__container__card__btn btn" href="#">получить консультацию</a>
+                        </div>
+                        <div class="comp-service__container__card wow animate__animated animate__fadeInRight">
+                            <p class="comp-service__container__card__title">Подберем запчасти на любое Авто</p>
+                            <p class="comp-service__container__card__text">Поможем подобрать любую запчать для
+                                вашего
+                                автомобиля,
+                                оформить доставку из США и осуществить установку новой детали.</p>
+                            <a class="comp-service__container__card__btn btn" href="#">получить консультацию</a>
                         </div>
                     </div>
-                    <!-- window 6 -->
-                    <div class="why-detroit">
-                        <div class="container">
-                            <p class="why-detroit__title wow animate__animated animate__fadeInLeftBig">ПОЧЕМу СТОИТ
-                                ВЫБИРАТЬ
-                                ИМЕННО DETROIT AUTO CENTRE</p>
-                            <div class="why-detroit__container">
-                                <div class="why-detroit__container_offer wow animate__animated animate__fadeInLeftBig">
-                                    <img src="./img/iconWhyDetroit1.svg" alt="">
-                                    <p
-                                        class="why-detroit__container_offer_text wow animate__animated animate__fadeInLeftBig">
-                                        Поэтапная оплата, без посредников и скрытых
-                                        платежей</p>
-                                </div>
-                                <div class="why-detroit__container_offer wow animate__animated animate__fadeInLeftBig">
-                                    <img src="./img/iconWhyDetroit2.svg" alt="">
-                                    <p class="why-detroit__container_offer_text">Тщательная проверка технического
-                                        состояния
-                                        и
-                                        полной
-                                        истории авто</p>
-                                </div>
+                </div>
+            </div>
+
+            <!-- window 5 -->
+            <div class="machine-brands">
+                <div class="container">
+                    <p class="machine-brands__title wow animate__animated animate__fadeInLeftBig">МАРКИ МАШИН
+                        КОТОРЫЕ МЫ МОЖЕМ ДОСТАВИТЬ СПЕЦИЛЬНО ДЛЯ ВАС</p>
+
+
+                    <div class="swiper-container machine-brands__items_slider">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconAuto.png" alt="iconAuto">
                             </div>
-                            <div class="why-detroit__container wow animate__animated animate__fadeInRightBig">
-                                <div class="why-detroit__container_offer"> <img src="./img/iconWhyDetroit3.svg" alt="">
-                                    <p class="why-detroit__container_offer_text">Страхование авто на время доставки из
-                                        США в
-                                        Украину
-                                    </p>
-                                </div>
-                                <div class="why-detroit__container_offer wow animate__animated animate__fadeInRightBig">
-                                    <img src="./img/iconWhyDetroit4.svg" alt="">
-                                    <p class="why-detroit__container_offer_text">Сопопровождение по оформлению полного
-                                        пакета
-                                        документов</p>
-                                </div>
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconBike.png" alt="iconBike">
                             </div>
-                        </div>
-                    </div>
-
-                    <!-- window 7 -->
-                    <div class="steps">
-                        <div class="container">
-                            <div class="steps-container">
-                                <p class="steps-container_title wow animate__animated animate__fadeInLeftBig"><span
-                                        class="bou">4</span> шага, КАК МОЖНО ПОЛУЧИТЬ
-                                    АВТОМОБИЛЬ НА <span class="bou">40 - 60%</span> ДЕШЕВЛЕ
-                                    ЧЕМ В УКРАИНЕ</p>
-                                <!-- место под слайдер -->
-                                <!-- TABS MENU -->
-                                <div class="wrapper wrapper-steps wow animate__animated animate__fadeInLeftBig">
-                                    <div class="tabs tabs-steps">
-
-                                        <div class="tab tab-steps">
-                                            <div class="subtab-steps">
-                                                <p class="tab__num-steps">1</p>
-                                                <p class="tab__text-steps">Оставить заявку и получить консультацию</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab tab-steps">
-                                            <div class="subtab-steps">
-                                                <p class="tab__num-steps">2</p>
-                                                <p class="tab__text-steps">Оставить заявку и получить консультацию</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab tab-steps">
-                                            <div class="subtab-steps">
-                                                <p class="tab__num-steps">3</p>
-                                                <p class="tab__text-steps">Оставить заявку и получить консультацию</p>
-                                            </div>
-                                        </div>
-                                        <div class="tab tab-steps">
-                                            <div class="subtab-steps">
-                                                <p class="tab__num-steps">4</p>
-                                                <p class="tab__text-steps">Оставить заявку и получить консультацию</p>
-                                            </div>
-                                        </div>
-
-
-                                    </div>
-
-                                    <div class="tab_content tab_content-steps">
-                                        <!-- Tab content 1 -->
-                                        <div class="tab_item">
-                                            <img class="tab_content-steps__img" src="./img/tabmenuimg.png" alt="ramda">
-
-                                        </div>
-                                        <div class="tab_item">
-                                            <img class="tab_content-steps__img" src="./img/tabmenuimg.png" alt="ramda">
-
-                                        </div>
-                                        <div class="tab_item">
-                                            <img class="tab_content-steps__img" src="./img/tabmenuimg.png" alt="ramda">
-
-                                        </div>
-                                        <div class="tab_item">
-                                            <img class="tab_content-steps__img" src="./img/tabmenuimg.png" alt="ramda">
-
-                                        </div>
-
-
-                                    </div>
-                                </div><!-- TABS MENU -->
-
-
-
-
-
-                                <!-- место под слайдер -->
-
-                                <p class="steps_form_title wow animate__animated animate__fadeInRightBig">Заполните
-                                    форму
-                                    ниже и получите <span class="bou">БЕСПЛАТНУЮ</span> консультацию
-                                    специалиста для подбора автомобиля Вашей мечты с ценой в <span class="bou">2</span>
-                                    раза
-                                    дешевле чем в Украине
-                                </p>
-                                <form
-                                    class="header__form-offer__items steps_form wow animate__animated animate__fadeInRightBig"
-                                    action="">
-                                    <input class="header__form-inner" type="text" name="name" id="name"
-                                        placeholder="Имя">
-                                    <input class="header__form-inner" type="text" name="tel" id="tel"
-                                        placeholder="Телефон">
-                                    <input class="header__form-inner btn " type="submit" name="btn" id="sub-btn"
-                                        value="получить консультацю">
-                                </form>
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconQuadroBike.png" alt="iconQuadroBike">
                             </div>
-                        </div>
-                    </div>
-
-
-
-
-
-                    <!-- window 8 -->
-                    <div class="reviews">
-                        <div class="container">
-                            <div class="reviews_container">
-                                <p class="reviews_container_title wow animate__animated animate__fadeInLeftBig">ОТЗЫВЫ
-                                    СЧАСТЛИВЫХ ВЛАДЕЛЬЦЕВ АВТО ИЗ США</p>
-
-                                <!-- Slider main container -->
-                                <div
-                                    class="swiper-container container_reviews wow animate__animated animate__fadeInRightBig">
-                                    <!-- Additional required wrapper -->
-                                    <div class="swiper-wrapper wrapper_reviews">
-                                        <!-- Slides -->
-                                        <div class="swiper-slide card_reviews1">
-                                            <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
-                                            <div class="card_review1">
-                                                <div class="card_review1_top-content">
-                                                    <img class="card_review1_top-content_img" src="./img/iconRewius.png"
-                                                        alt="">
-                                                    <div>
-                                                        <p class="card_review1_top-content_text_name">Андрей Рябов</p>
-                                                        <p class="card_review1_top-content_text_city">Киев</p>
-                                                        <p class="card_review1_top-content_text_car">Nisan Rogue</p>
-                                                    </div>
-                                                </div>
-                                                <p class="card_review1_text">Решил поменять машину, долго не мог
-                                                    определиться с маркой, но хотел
-                                                    кроссовер.Ребята очень здрово
-                                                    сработали. Помогли выбрать марку и модель.
-                                                </p>
-                                                <p class="card_review1_text">Машина приехала в отличном техническом
-                                                    состояни. Быстро оформли и
-                                                    поставили на номера.
-                                                </p>
-                                                <p class="card_review1_text">Очень доволен сотрудничеством с компанией
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide card_reviews1">
-                                            <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
-                                            <div class="card_review1">
-                                                <div class="card_review1_top-content">
-                                                    <img class="card_review1_top-content_img" src="./img/iconRewius.png"
-                                                        alt="">
-                                                    <div>
-                                                        <p class="card_review1_top-content_text_name">Андрей Рябов</p>
-                                                        <p class="card_review1_top-content_text_city">Киев</p>
-                                                        <p class="card_review1_top-content_text_car">Nisan Rogue</p>
-                                                    </div>
-                                                </div>
-                                                <p class="card_review1_text">Решил поменять машину, долго не мог
-                                                    определиться с маркой, но хотел
-                                                    кроссовер.Ребята очень здрово
-                                                    сработали. Помогли выбрать марку и модель.
-                                                </p>
-                                                <p class="card_review1_text">Машина приехала в отличном техническом
-                                                    состояни. Быстро оформли и
-                                                    поставили на номера.
-                                                </p>
-                                                <p class="card_review1_text">Очень доволен сотрудничеством с компанией
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide card_reviews1">
-                                            <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
-                                            <div class="card_review1">
-                                                <div class="card_review1_top-content">
-                                                    <img class="card_review1_top-content_img" src="./img/iconRewius.png"
-                                                        alt="">
-                                                    <div>
-                                                        <p class="card_review1_top-content_text_name">Андрей Рябов</p>
-                                                        <p class="card_review1_top-content_text_city">Киев</p>
-                                                        <p class="card_review1_top-content_text_car">Nisan Rogue</p>
-                                                    </div>
-                                                </div>
-                                                <p class="card_review1_text">Решил поменять машину, долго не мог
-                                                    определиться с маркой, но хотел
-                                                    кроссовер.Ребята очень здрово
-                                                    сработали. Помогли выбрать марку и модель.
-                                                </p>
-                                                <p class="card_review1_text">Машина приехала в отличном техническом
-                                                    состояни. Быстро оформли и
-                                                    поставили на номера.
-                                                </p>
-                                                <p class="card_review1_text">Очень доволен сотрудничеством с компанией
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide card_reviews1">
-                                            <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
-                                            <div class="card_review1">
-                                                <div class="card_review1_top-content">
-                                                    <img class="card_review1_top-content_img" src="./img/iconRewius.png"
-                                                        alt="">
-                                                    <div>
-                                                        <p class="card_review1_top-content_text_name">Андрей Рябов</p>
-                                                        <p class="card_review1_top-content_text_city">Киев</p>
-                                                        <p class="card_review1_top-content_text_car">Nisan Rogue</p>
-                                                    </div>
-                                                </div>
-                                                <p class="card_review1_text">Решил поменять машину, долго не мог
-                                                    определиться с маркой, но хотел
-                                                    кроссовер.Ребята очень здрово
-                                                    сработали. Помогли выбрать марку и модель.
-                                                </p>
-                                                <p class="card_review1_text">Машина приехала в отличном техническом
-                                                    состояни. Быстро оформли и
-                                                    поставили на номера.
-                                                </p>
-                                                <p class="card_review1_text">Очень доволен сотрудничеством с компанией
-                                                </p>
-                                            </div>
-                                        </div>
-
-
-
-
-                                    </div>
-                                    <div class="swiper-pagination pagination_reviews"></div>
-                                    <div class="swiper-button-prev button-prev-reviews"></div>
-                                    <div class="swiper-button-next button-next-reviews"></div>
-                                </div>
-
-
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconBoat.png" alt="iconBoat">
                             </div>
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconWaterBike.png" alt="iconWaterBike">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconWaterBike.png" alt="iconWaterBike">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="machine-brands-icon" src="./img/iconWaterBike.png" alt="iconWaterBike">
+                            </div>
+
                         </div>
 
                     </div>
-                    <!-- window 9 -->
-                    <div class="faq">
-                        <div class="container">
-                            <div class="faq_container">
-                                <!-- <img class="faq_container_bg" src="./img/bgWindow9car.png" alt="car10"> -->
-                                <p class="faq_container_title wow animate__animated animate__fadeInLeftBig">ЧАСТО
-                                    ЗАДАВАЕМЫЕ
-                                    ВОПРОСЫ НАШИХ КЛИЕНТОВ</p>
 
 
-                                <!-- аккардеон чистый-->
-                                <div class="accardeon">
-                                    <div class="accardeon-item wow animate__animated animate__fadeInLeft">
-                                        <input class="accardeon-input" type="checkbox" name="accardeon_1"
-                                            id="accardeon_1">
-                                        <label class="accardeon-title" for="accardeon_1">
-                                            <p> Почему такая большая разница цены на авто в
-                                                США и Украине?</p></i>
-                                        </label>
 
-                                        <div class="accardeon-text">
-                                            <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
-                                                деньги.
-                                                Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
-                                                оптика.
-                                                Перед
-                                                покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
-                                                где
-                                                хранятся
-                                                все сведения об авто, а также консультируемся со специалистами СТО по
-                                                стоимости
-                                                ремонта. О всех деталях вы будете осведомлены и в любой момент можете
-                                                связаться
-                                                с
-                                                нами.</p>
-                                        </div>
-                                    </div>
-                                    <div class="accardeon-item wow animate__animated animate__fadeInRight">
-                                        <input class="accardeon-input" type="checkbox" name="accardeon_2"
-                                            id="accardeon_2">
-                                        <label class="accardeon-title" for="accardeon_2">Сколько времени занимает
-                                            растаможка
-                                            и
-                                            постановка авто на учет?</label>
-                                        <div class="accardeon-text">
-                                            <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
-                                                деньги.
-                                                Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
-                                                оптика.
-                                                Перед
-                                                покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
-                                                где
-                                                хранятся
-                                                все сведения об авто, а также консультируемся со специалистами СТО по
-                                                стоимости
-                                                ремонта. О всех деталях вы будете осведомлены и в любой момент можете
-                                                связаться
-                                                с
-                                                нами.</p>
-                                        </div>
-                                    </div>
-                                    <div class="accardeon-item  wow animate__animated animate__fadeInLeft">
-                                        <input class="accardeon-input" type="checkbox" name="accardeon_3"
-                                            id="accardeon_3">
-                                        <label class="accardeon-title" for="accardeon_3">Через какой промежуток времени
-                                            я
-                                            получу
-                                            авто?</label>
-                                        <div class="accardeon-text">
-                                            <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
-                                                деньги.
-                                                Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
-                                                оптика.
-                                                Перед
-                                                покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
-                                                где
-                                                хранятся
-                                                все сведения об авто, а также консультируемся со специалистами СТО по
-                                                стоимости
-                                                ремонта. О всех деталях вы будете осведомлены и в любой момент можете
-                                                связаться
-                                                с
-                                                нами.</p>
-                                        </div>
-                                    </div>
-                                    <div class="accardeon-item wow animate__animated animate__fadeInRight">
-                                        <input class="accardeon-input" type="checkbox" name="accardeon_4"
-                                            id="accardeon_4">
-                                        <label class="accardeon-title" for="accardeon_4">Насколько безопасно покупать
-                                            б\у
-                                            автомобиль?</label>
-                                        <div class="accardeon-text">
-                                            <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
-                                                деньги.
-                                                Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
-                                                оптика.
-                                                Перед
-                                                покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
-                                                где
-                                                хранятся
-                                                все сведения об авто, а также консультируемся со специалистами СТО по
-                                                стоимости
-                                                ремонта. О всех деталях вы будете осведомлены и в любой момент можете
-                                                связаться
-                                                с
-                                                нами.</p>
-                                        </div>
-                                    </div>
-                                    <div class="accardeon-item wow animate__animated animate__fadeInLeft">
-                                        <input class="accardeon-input" type="checkbox" name="accardeon_5"
-                                            id="accardeon_5">
-                                        <label class="accardeon-title" for="accardeon_5">Какая стоимость Ваших
-                                            услуг?</label>
-                                        <div class="accardeon-text">
-                                            <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
-                                                деньги.
-                                                Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
-                                                оптика.
-                                                Перед
-                                                покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
-                                                где
-                                                хранятся
-                                                все сведения об авто, а также консультируемся со специалистами СТО по
-                                                стоимости
-                                                ремонта. О всех деталях вы будете осведомлены и в любой момент можете
-                                                связаться
-                                                с
-                                                нами.</p>
-                                        </div>
-                                    </div>
-                                    <div class="accardeon-item wow animate__animated animate__fadeInRight">
-                                        <input class="accardeon-input" type="checkbox" name="accardeon_6"
-                                            id="accardeon_6">
-                                        <label class="accardeon-title" for="accardeon_6">Во сколько мне обойдется
-                                            ремонт?</label>
-                                        <div class="accardeon-text">
-                                            <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
-                                                деньги.
-                                                Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
-                                                оптика.
-                                                Перед
-                                                покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
-                                                где
-                                                хранятся
-                                                все сведения об авто, а также консультируемся со специалистами СТО по
-                                                стоимости
-                                                ремонта. О всех деталях вы будете осведомлены и в любой момент можете
-                                                связаться
-                                                с
-                                                нами.</p>
-                                        </div>
-                                    </div>
-                                </div><!-- аккардеон чистый-->
+                    <!-- <div class="machine-brands__items wow animate__animated animate__fadeInRight">
 
-                                <p class="faq_container_form_title wow animate__animated animate__fadeInDown">Остались
-                                    вопросы?</p>
-                                <form
-                                    class="header__form-offer__items faq_container_form wow animate__animated animate__fadeInDown"
-                                    action="">
-                                    <input class="header__form-inner" type="text" name="name" id="name"
-                                        placeholder="Имя">
-                                    <input class="header__form-inner" type="text" name="tel" id="tel"
-                                        placeholder="Телефон">
-                                    <input class="header__form-inner btn " type="submit" name="btn" id="sub-btn"
-                                        value="получить консультацю">
-                                </form>
-                                <!-- аккардеон с js-->
-                                <!--  <div class="wrapper">
+
+
+                            </div> -->
+
+                    <!-- machine-brands__form -->
+                    <div class="machine-brands__form__container">
+                        <img class="machine-brands__form_img1 wow animate__animated animate__fadeInRightBig"
+                            src="./img/bg__machine-brands__form1.png" alt="">
+                        <img class="machine-brands__form_img2 wow animate__animated animate__fadeInRightBig"
+                            src="./img/bg__machine-brands__form2.png" alt="">
+                        <p class="machine-brands__form__title wow animate__animated animate__fadeInLeftBig">
+                            ДАВНО
+                            СМОТРИТЕ В СТОРОНУ НОВОЙ МАШИНЫ, НО СТАРАЯ ВСЕ
+                            ЕЩЕ
+                            НА
+                            ХОДУ
+                            И НЕТ ДЕНЕГ НА ПЕРВЫЙ ВЗНОС?</p>
+                        <p class="machine-brands__form__text wow animate__animated animate__fadeInLeft">Каждую
+                            неделю мы получаем <span class="bou">+1305</span>
+                            обновления новых предложений
+                            по
+                            покупке или продажи авто!</p>
+                        <p class="machine-brands__form__text wow animate__animated animate__fadeInLeft">Закажите
+                            <span class="bou">БЕСПЛАТНУЮ</span>
+                            консультацию
+                            специалист и узнайте, во
+                            сколько
+                            обойдется Вам первый взнос за авто Вашей мечты с возможность продажи собственного
+                            автомобиля.
+                        </p>
+                        <p class="machine-brands__form__subtitle wow animate__animated animate__fadeInLeft">
+                            Заполните форму ниже и получите консультацию в
+                            течении
+                            <span class="bou">30</span>
+                            минут
+                        </p>
+                        <form class="machine-brands__form__items wow animate__animated animate__fadeInUp" action="">
+                            <input class="machine-brands__form-inner" type="text" name="name" id="name"
+                                placeholder="Имя">
+                            <input class="machine-brands__form-inner" type="text" name="tel" id="tel"
+                                placeholder="Телефон">
+                            <input class="machine-brands__form-inner_btn btn " type="submit" name="btn" id="sub-btn"
+                                value="получить предложение">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- window 6 -->
+            <div class="why-detroit">
+                <div class="container">
+                    <p class="why-detroit__title wow animate__animated animate__fadeInLeftBig">ПОЧЕМу СТОИТ
+                        ВЫБИРАТЬ
+                        ИМЕННО DETROIT AUTO CENTRE</p>
+                    <div class="why-detroit__container">
+                        <div class="why-detroit__container_offer wow animate__animated animate__fadeInLeftBig">
+                            <img src="./img/iconWhyDetroit1.svg" alt="">
+                            <p class="why-detroit__container_offer_text wow animate__animated animate__fadeInLeftBig">
+                                Поэтапная оплата, без посредников и скрытых
+                                платежей</p>
+                        </div>
+                        <div class="why-detroit__container_offer wow animate__animated animate__fadeInLeftBig">
+                            <img src="./img/iconWhyDetroit2.svg" alt="">
+                            <p class="why-detroit__container_offer_text">Тщательная проверка технического
+                                состояния
+                                и
+                                полной
+                                истории авто</p>
+                        </div>
+                    </div>
+                    <div class="why-detroit__container wow animate__animated animate__fadeInRightBig">
+                        <div class="why-detroit__container_offer"> <img src="./img/iconWhyDetroit3.svg" alt="">
+                            <p class="why-detroit__container_offer_text">Страхование авто на время доставки из
+                                США в
+                                Украину
+                            </p>
+                        </div>
+                        <div class="why-detroit__container_offer wow animate__animated animate__fadeInRightBig">
+                            <img src="./img/iconWhyDetroit4.svg" alt="">
+                            <p class="why-detroit__container_offer_text">Сопопровождение по оформлению полного
+                                пакета
+                                документов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- window 7 -->
+            <div class="steps">
+                <div class="container">
+                    <div class="steps-container">
+                        <p class="steps-container_title wow animate__animated animate__fadeInLeftBig"><span
+                                class="bou">4</span> шага, КАК МОЖНО ПОЛУЧИТЬ
+                            АВТОМОБИЛЬ НА <span class="bou">40 - 60%</span> ДЕШЕВЛЕ
+                            ЧЕМ В УКРАИНЕ</p>
+                        <!-- место под слайдер -->
+                        <!-- TABS MENU -->
+                        <div class="wrapper wrapper-steps wow animate__animated animate__fadeInLeftBig">
+                            <div class="tabs tabs-steps">
+
+                                <div class="tab tab-steps">
+                                    <div class="subtab-steps">
+                                        <p class="tab__num-steps">1</p>
+                                        <p class="tab__text-steps">Оставить заявку и получить консультацию</p>
+                                    </div>
+                                </div>
+                                <div class="tab tab-steps">
+                                    <div class="subtab-steps">
+                                        <p class="tab__num-steps">2</p>
+                                        <p class="tab__text-steps">Выбрать нужное авто</p>
+                                    </div>
+                                </div>
+                                <div class="tab tab-steps">
+                                    <div class="subtab-steps">
+                                        <p class="tab__num-steps">3</p>
+                                        <p class="tab__text-steps">Заключить договор о сотрудничестве
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="tab tab-steps">
+                                    <div class="subtab-steps">
+                                        <p class="tab__num-steps">4</p>
+                                        <p class="tab__text-steps">Участие в аукционе, выкуп и доставка в Украину </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                            <div class="tab_content tab_content-steps">
+                                <!-- Tab content 1 -->
+                                <div class="tab_item">
+                                    <img class="tab_content-steps__img" src="./img/consult.jpg" alt="consult">
+
+                                </div>
+                                <div class="tab_item">
+                                    <img class="tab_content-steps__img" src="./img/chooseauto.jpg" alt="chooseauto">
+
+                                </div>
+                                <div class="tab_item">
+                                    <img class="tab_content-steps__img" src="./img/tabmenuimg.png" alt="tabmenuimg">
+
+                                </div>
+                                <div class="tab_item">
+                                    <img class="tab_content-steps__img" src="./img/aukcion.jpg" alt="aukcion">
+
+                                </div>
+
+
+                            </div>
+                        </div><!-- TABS MENU -->
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- window 8 -->
+            <div class="reviews">
+                <div class="container">
+                    <div class="reviews_container">
+                        <p class="reviews_container_title wow animate__animated animate__fadeInLeftBig">ОТЗЫВЫ
+                            СЧАСТЛИВЫХ ВЛАДЕЛЬЦЕВ АВТО ИЗ США</p>
+
+                        <!-- Slider main container -->
+                        <div class="swiper-container container_reviews wow animate__animated animate__fadeInRightBig">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper wrapper_reviews">
+                                <!-- Slides -->
+                                <div class="swiper-slide card_reviews1">
+                                    <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
+                                    <div class="card_review1">
+                                        <div class="card_review1_top-content">
+                                            <img class="card_review1_top-content_img" src="./img/iconRewius.png" alt="">
+                                            <div>
+                                                <p class="card_review1_top-content_text_name">Андрей Рябов</p>
+                                                <p class="card_review1_top-content_text_city">Киев</p>
+                                                <p class="card_review1_top-content_text_car">Nisan Rogue</p>
+                                            </div>
+                                        </div>
+                                        <p class="card_review1_text">Решил поменять машину, долго не мог
+                                            определиться с маркой, но хотел
+                                            кроссовер.Ребята очень здрово
+                                            сработали. Помогли выбрать марку и модель.
+                                        </p>
+                                        <p class="card_review1_text">Машина приехала в отличном техническом
+                                            состояни. Быстро оформли и
+                                            поставили на номера.
+                                        </p>
+                                        <p class="card_review1_text">Очень доволен сотрудничеством с компанией
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card_reviews1">
+                                    <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
+                                    <div class="card_review1">
+                                        <div class="card_review1_top-content">
+                                            <img class="card_review1_top-content_img" src="./img/iconRewius.png" alt="">
+                                            <div>
+                                                <p class="card_review1_top-content_text_name">Андрей Рябов</p>
+                                                <p class="card_review1_top-content_text_city">Киев</p>
+                                                <p class="card_review1_top-content_text_car">Nisan Rogue</p>
+                                            </div>
+                                        </div>
+                                        <p class="card_review1_text">Решил поменять машину, долго не мог
+                                            определиться с маркой, но хотел
+                                            кроссовер.Ребята очень здрово
+                                            сработали. Помогли выбрать марку и модель.
+                                        </p>
+                                        <p class="card_review1_text">Машина приехала в отличном техническом
+                                            состояни. Быстро оформли и
+                                            поставили на номера.
+                                        </p>
+                                        <p class="card_review1_text">Очень доволен сотрудничеством с компанией
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card_reviews1">
+                                    <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
+                                    <div class="card_review1">
+                                        <div class="card_review1_top-content">
+                                            <img class="card_review1_top-content_img" src="./img/iconRewius.png" alt="">
+                                            <div>
+                                                <p class="card_review1_top-content_text_name">Андрей Рябов</p>
+                                                <p class="card_review1_top-content_text_city">Киев</p>
+                                                <p class="card_review1_top-content_text_car">Nisan Rogue</p>
+                                            </div>
+                                        </div>
+                                        <p class="card_review1_text">Решил поменять машину, долго не мог
+                                            определиться с маркой, но хотел
+                                            кроссовер.Ребята очень здрово
+                                            сработали. Помогли выбрать марку и модель.
+                                        </p>
+                                        <p class="card_review1_text">Машина приехала в отличном техническом
+                                            состояни. Быстро оформли и
+                                            поставили на номера.
+                                        </p>
+                                        <p class="card_review1_text">Очень доволен сотрудничеством с компанией
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide card_reviews1">
+                                    <div><img class="card_reviews1_img" src="./img/bgreviews.png" alt=""></div>
+                                    <div class="card_review1">
+                                        <div class="card_review1_top-content">
+                                            <img class="card_review1_top-content_img" src="./img/iconRewius.png" alt="">
+                                            <div>
+                                                <p class="card_review1_top-content_text_name">Андрей Рябов</p>
+                                                <p class="card_review1_top-content_text_city">Киев</p>
+                                                <p class="card_review1_top-content_text_car">Nisan Rogue</p>
+                                            </div>
+                                        </div>
+                                        <p class="card_review1_text">Решил поменять машину, долго не мог
+                                            определиться с маркой, но хотел
+                                            кроссовер.Ребята очень здрово
+                                            сработали. Помогли выбрать марку и модель.
+                                        </p>
+                                        <p class="card_review1_text">Машина приехала в отличном техническом
+                                            состояни. Быстро оформли и
+                                            поставили на номера.
+                                        </p>
+                                        <p class="card_review1_text">Очень доволен сотрудничеством с компанией
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="swiper-pagination pagination_reviews"></div>
+                            <div class="swiper-button-prev button-prev-reviews"></div>
+                            <div class="swiper-button-next button-next-reviews"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- window 9 -->
+            <div class="faq">
+                <div class="container">
+                    <div class="faq_container">
+                        <!-- <img class="faq_container_bg" src="./img/bgWindow9car.png" alt="car10"> -->
+                        <p class="faq_container_title wow animate__animated animate__fadeInLeftBig">ЧАСТО
+                            ЗАДАВАЕМЫЕ
+                            ВОПРОСЫ НАШИХ КЛИЕНТОВ</p>
+
+
+                        <!-- аккардеон чистый-->
+                        <div class="accardeon">
+                            <div class="accardeon-item wow animate__animated animate__fadeInLeft">
+                                <input class="accardeon-input" type="checkbox" name="accardeon_1" id="accardeon_1">
+                                <label class="accardeon-title" for="accardeon_1">
+                                    <p> Почему такая большая разница цены на авто в
+                                        США и Украине?</p></i>
+                                </label>
+
+                                <div class="accardeon-text">
+                                    <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
+                                        деньги.
+                                        Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
+                                        оптика.
+                                        Перед
+                                        покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
+                                        где
+                                        хранятся
+                                        все сведения об авто, а также консультируемся со специалистами СТО по
+                                        стоимости
+                                        ремонта. О всех деталях вы будете осведомлены и в любой момент можете
+                                        связаться
+                                        с
+                                        нами.</p>
+                                </div>
+                            </div>
+                            <div class="accardeon-item wow animate__animated animate__fadeInRight">
+                                <input class="accardeon-input" type="checkbox" name="accardeon_2" id="accardeon_2">
+                                <label class="accardeon-title" for="accardeon_2">Сколько времени занимает
+                                    растаможка
+                                    и
+                                    постановка авто на учет?</label>
+                                <div class="accardeon-text">
+                                    <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
+                                        деньги.
+                                        Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
+                                        оптика.
+                                        Перед
+                                        покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
+                                        где
+                                        хранятся
+                                        все сведения об авто, а также консультируемся со специалистами СТО по
+                                        стоимости
+                                        ремонта. О всех деталях вы будете осведомлены и в любой момент можете
+                                        связаться
+                                        с
+                                        нами.</p>
+                                </div>
+                            </div>
+                            <div class="accardeon-item  wow animate__animated animate__fadeInLeft">
+                                <input class="accardeon-input" type="checkbox" name="accardeon_3" id="accardeon_3">
+                                <label class="accardeon-title" for="accardeon_3">Через какой промежуток времени
+                                    я
+                                    получу
+                                    авто?</label>
+                                <div class="accardeon-text">
+                                    <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
+                                        деньги.
+                                        Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
+                                        оптика.
+                                        Перед
+                                        покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
+                                        где
+                                        хранятся
+                                        все сведения об авто, а также консультируемся со специалистами СТО по
+                                        стоимости
+                                        ремонта. О всех деталях вы будете осведомлены и в любой момент можете
+                                        связаться
+                                        с
+                                        нами.</p>
+                                </div>
+                            </div>
+                            <div class="accardeon-item wow animate__animated animate__fadeInRight">
+                                <input class="accardeon-input" type="checkbox" name="accardeon_4" id="accardeon_4">
+                                <label class="accardeon-title" for="accardeon_4">Насколько безопасно покупать
+                                    б\у
+                                    автомобиль?</label>
+                                <div class="accardeon-text">
+                                    <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
+                                        деньги.
+                                        Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
+                                        оптика.
+                                        Перед
+                                        покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
+                                        где
+                                        хранятся
+                                        все сведения об авто, а также консультируемся со специалистами СТО по
+                                        стоимости
+                                        ремонта. О всех деталях вы будете осведомлены и в любой момент можете
+                                        связаться
+                                        с
+                                        нами.</p>
+                                </div>
+                            </div>
+                            <div class="accardeon-item wow animate__animated animate__fadeInLeft">
+                                <input class="accardeon-input" type="checkbox" name="accardeon_5" id="accardeon_5">
+                                <label class="accardeon-title" for="accardeon_5">Какая стоимость Ваших
+                                    услуг?</label>
+                                <div class="accardeon-text">
+                                    <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
+                                        деньги.
+                                        Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
+                                        оптика.
+                                        Перед
+                                        покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
+                                        где
+                                        хранятся
+                                        все сведения об авто, а также консультируемся со специалистами СТО по
+                                        стоимости
+                                        ремонта. О всех деталях вы будете осведомлены и в любой момент можете
+                                        связаться
+                                        с
+                                        нами.</p>
+                                </div>
+                            </div>
+                            <div class="accardeon-item wow animate__animated animate__fadeInRight">
+                                <input class="accardeon-input" type="checkbox" name="accardeon_6" id="accardeon_6">
+                                <label class="accardeon-title" for="accardeon_6">Во сколько мне обойдется
+                                    ремонт?</label>
+                                <div class="accardeon-text">
+                                    <p>Мы выбираем авто с минимальными повреждениями, чтобы обезопасить Ваши
+                                        деньги.
+                                        Максимум кузовные дефекты, помятый бампер, сорванный порог, разбитая
+                                        оптика.
+                                        Перед
+                                        покупкой проверяем историю по базам данных AutoCheck, CARFAX, EpicVIN,
+                                        где
+                                        хранятся
+                                        все сведения об авто, а также консультируемся со специалистами СТО по
+                                        стоимости
+                                        ремонта. О всех деталях вы будете осведомлены и в любой момент можете
+                                        связаться
+                                        с
+                                        нами.</p>
+                                </div>
+                            </div>
+                        </div><!-- аккардеон чистый-->
+
+                        <p class="faq_container_form_title wow animate__animated animate__fadeInDown">Остались
+                            вопросы?</p>
+                        <form class="faq_container_form wow animate__animated animate__fadeInDown" action="">
+                            <input class="faq__form-inner" type="text" name="name" id="name" placeholder="Имя">
+                            <input class="faq__form-inner" type="text" name="tel" id="tel" placeholder="Телефон">
+                            <input class="faq__form-inner btn " type="submit" name="btn" id="sub-btn"
+                                value="получить консультацю">
+                        </form>
+                        <!-- аккардеон с js-->
+                        <!--  <div class="wrapper">
                         <div class="accordeon">
 
                             <div class="accordeon-item">
@@ -898,12 +965,12 @@
 
                         </div>
                     </div> -->
-                                <!-- аккардеон с js-->
+                        <!-- аккардеон с js-->
 
 
-                            </div>
-                        </div>
                     </div>
+                </div>
+            </div>
 
         </main>
 
@@ -933,6 +1000,10 @@
                             </div>
                             <p class="footer-contacts__workhours">Время работы: вт-сб. с 10:00 до 20:00</p>
                             <p class="footer-contacts__weekend">Выходные: вс-пн.</p>
+                            <p class="footer-inst__icons">
+                                <a href="#" class="icon-fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="icon-inst" target="_blank"><i class="fab fa-instagram"></i></a>
+                            </p>
                         </div>
                         <div class="footer-contacts__map">
                             <iframe
@@ -946,10 +1017,6 @@
             <div class="footer-inst">
                 <div class="container">
                     <div class="footer-container">
-                        <div class="footer-inst__icons">
-                            <a href="#" class="icon-fb" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="icon-inst" target="_blank"><i class="fab fa-instagram"></i></a>
-                        </div>
                         <div class="footer-copyright">© 2020, Detroit Auto, all rights reserved</div>
                     </div>
                 </div>
