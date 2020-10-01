@@ -51,6 +51,8 @@ html {
 }
 
 body {
+    min-width: 1180px;
+    /* для фикс адаптации*/
     margin: 0;
     font-family: 'SF UI Display', sans-serif;
     font-weight: 400;
@@ -99,8 +101,10 @@ p {
 }
 
 .container {
-    width: 100%;
-    max-width: 1180px;
+    /* width: 100%; */
+    width: 1180px;
+    /* для фикс адаптации*/
+    /* max-width: 1180px; */
     margin: 0 auto;
 }
 
@@ -108,7 +112,6 @@ p {
 ===============*/
 
 .header {
-    height: 100vh;
     background: url(../img/bgHeader.png)
         /* center */
         no-repeat;
@@ -1732,7 +1735,7 @@ p {
 }
 
 @media (max-width: 767px) {
-    .nav-offer-btn {
+    /* .nav-offer-btn {
         margin-right: 100px;
     }
 
@@ -1996,5 +1999,5 @@ p {
 
     .swiper-container {
         z-index: 0;
-    }
+    } */
 }
