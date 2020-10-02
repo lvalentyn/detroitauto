@@ -1,3 +1,15 @@
+function ibg() {
+
+	let ibg = document.querySelectorAll(".ibg");
+	for (var i = 0; i < ibg.length; i++) {
+		if (ibg[i].querySelector('.header-bg')) {
+			ibg[i].style.backgroundImage = 'url(' + ibg[i].querySelector('.header-bg').getAttribute('src') + ')';
+		}
+	}
+}
+
+ibg();
+
 // navmenu
 window.addEventListener('scroll', function () {
 	var headerInner = document.querySelector('.headerInner');
@@ -24,12 +36,25 @@ addEventListener("resize", function () {
 		dropdown.style.display = "none";
 		button.innerHTML = "menu";
 	}
-})
-
+});
 
 var mySwiperAutoUsa = new Swiper('.auto_from_usa-swiper', {
-	slidesPerView: 3,
-	spaceBetween: 20,
+	breakpoints: {
+		// when window width is >= 320px
+		320: {
+			slidesPerView: 1,
+			spaceBetween: 20,
+
+		},
+		769: {
+			slidesPerView: 2,
+			spaceBetween: 30
+		},
+		1170: {
+			slidesPerView: 3,
+			spaceBetween: 20,
+		},
+	},
 	loop: true,
 	speed: 900,
 	autoplay: {
@@ -44,6 +69,8 @@ var mySwiperAutoUsa = new Swiper('.auto_from_usa-swiper', {
 		prevEl: '.swiper-button-prev',
 	},
 })
+
+
 var mySwiperInNum = new Swiper('.container_detroit-in-num', {
 	// Optional parameters
 	direction: 'horizontal',
@@ -73,9 +100,23 @@ var mySwiperMachineBrands = new Swiper('.machine-brands__items_slider', {
 	// Optional parameters
 	direction: 'horizontal',
 	loop: true,
-	slidesPerView: 5,
+	breakpoints: {
+		// when window width is >= 320px
+		320: {
+			slidesPerView: 3,
+			spaceBetween: 20,
+
+		},
+		769: {
+			slidesPerView: 4,
+			spaceBetween: 20
+		},
+		1170: {
+			slidesPerView: 5,
+			spaceBetween: 20,
+		},
+	},
 	speed: 900,
-	spaceBetween: 20,
 	autoplay: {
 		delay: 3000,
 	}
@@ -137,3 +178,51 @@ var mySwiperReviews = new Swiper('.container_reviews', {
 // 		}
 // 	})
 // )
+
+
+// Animations
+
+const animItems = document.querySelectorAll('._anim-items');
+
+if (animItems.length > 0) {
+	window.addEventListener('scroll', animOnScroll);
+
+	function animOnScroll() {
+		for (let index = 0; index < animItems.length; index++) {
+			const animItem = animItems[index];
+			const animItemHeight = animItem.offsetHeight;
+			const animItemOffset = offset(animItem).top;
+			const animStart = 4;
+
+			let animItemPoint = window.innerHeight - animItemHeight / animStart;
+
+			if (animItemHeight > window.innerHeight) {
+				animItemPoint = window.innerHeight - window.innerHeight / animStart;
+			}
+
+			if ((pageYOffset > animItemOffset - animItemPoint) && pageYOffset < (animItemOffset + animItemHeight)) {
+				animItem.classList.add('_active');
+			} else {
+				if (!animItem.classList.contains('_anim-off')) {
+					animItem.classList.remove('_active');
+
+				}
+			}
+		}
+	}
+
+	function offset(el) {
+		const rect = el.getBoundingClientRect(),
+			scrollLeft = window.pageXOffset || document.documentElement.scrollLeft,
+			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+		return {
+			top: rect.top + scrollTop,
+			left: rect.left + scrollLeft
+		}
+	}
+
+	setTimeout(() => {
+		animOnScroll();
+	}, 300);
+
+}
