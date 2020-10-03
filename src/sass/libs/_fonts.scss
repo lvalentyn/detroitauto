@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Black.eot');
+    src: local("SF UI Display Black"), local("SFUIDisplay-Black"), url('SFUIDisplay-Black.eot?#iefix') format("embedded-opentype"), url('SFUIDisplay-Black.woff2') format("woff2"), url('SFUIDisplay-Black.woff') format("woff"), url('SFUIDisplay-Black.ttf') format("truetype");
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Bold.eot');
+    src: local("SF UI Display Bold"), local("SFUIDisplay-Bold"), url('SFUIDisplay-Bold.eot?#iefix') format("embedded-opentype"), url('SFUIDisplay-Bold.woff2') format("woff2"), url('SFUIDisplay-Bold.woff') format("woff"), url('SFUIDisplay-Bold.ttf') format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Light.eot');
+    src: local("SF UI Display Light"), local("SFUIDisplay-Light"), url('SFUIDisplay-Light.eot?#iefix') format("embedded-opentype"), url('SFUIDisplay-Light.woff2') format("woff2"), url('SFUIDisplay-Light.woff') format("woff"), url('SFUIDisplay-Light.ttf') format("truetype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SF UI Display';
+    src: url('../fonts/SFUIDisplay-Regular.eot');
+    src: local("SF UI Display Regular"), local("SFUIDisplay-Regular"), url('SFUIDisplay-Regular.eot?#iefix') format("embedded-opentype"), url('SFUIDisplay-Regular.woff2') format("woff2"), url('SFUIDisplay-Regular.woff') format("woff"), url('SFUIDisplay-Regular.ttf') format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}

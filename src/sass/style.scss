@@ -1,0 +1,64 @@
+
+@import "./libs/swiper";
+@import "./libs/fonts";
+
+@import "./base/media";
+@import "./base/animations";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'SF UI Display', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    color: #fff;
+    font-size: 10px;
+  }
+  
+* {
+box-sizing: border-box;
+	&:before, &:after {
+		box-sizing: border-box;
+	}
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+/*page
+  =================*/
+  
+  .page {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .container {
+    max-width: 1210px;
+    padding: 0px 15px;
+    margin: 0 auto;
+  }
+
+.bou {
+	color: #FF7A00;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.o {
+	color: #FF7A00;
+}
+
+.ibg {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+@import "./blocks/general";
+@import "./blocks/modal";

@@ -1,0 +1,1100 @@
+@media (max-width: 1170px) {
+    .page {
+    .header__form-offer-container {
+      justify-content: center;
+    }
+  
+    .header__contacts__tel {
+      font-size: 1.5rem;
+    }
+    
+    .headerInner {
+      &.sticky {
+        .header__contacts__soc {
+          margin-top: 5px;
+          margin-left: 0;
+        }
+  
+        .icon-fb, .icon-inst {
+          font-size: 2rem;
+        }
+  
+        .header__contacts__tel {
+          font-size: 1.4rem;
+        }
+  
+        .header-inner-left-part {
+          margin-right: 10px;
+        }
+  
+        .header__nav__link {
+          font-size: 1.5rem;
+        }
+      }
+  
+      justify-content: space-around;
+    }
+  
+    .header__offer-info_card_text {
+      font-size: 1.8rem;
+      padding: 0 20px 0 10px;
+    }
+  
+    .header__offer-info_card {
+      padding: 10px;
+    }
+  
+    .convenient-way__container__card__btn {
+      font-size: 1.52rem;
+      padding: 10px 40px;
+    }
+  
+    .header__contacts {
+      flex-direction: column;
+    }
+  
+    .header-inner-left-part {
+      margin-right: 20px;
+    }
+  
+    .container_reviews {
+      position: relative;
+      width: 890px;
+      height: 300px;
+      padding-bottom: 30px;
+      overflow: hidden;
+    }
+  
+    .machine-brands__form_img1 {
+      right: -470px;
+    }
+  
+    .machine-brands__form_img2 {
+      right: 80px;
+    }
+  
+    .card_reviews1_img {
+      width: 400px;
+      margin: 0;
+    }
+  
+    .card_review1_text {
+      padding: 5px 0;
+    }
+  
+    .card_review1_top-content {
+      padding: 5px;
+    }
+  
+    .button-prev-reviews {
+      top: 284px;
+      left: 452px;
+    }
+  
+    .button-next-reviews {
+      top: 284px;
+      left: 548px;
+    }
+  
+    .comp-service__container__card__title {
+      width: 82%;
+    }
+  
+    .pagination_reviews {
+      top: 270px;
+      left: 0;
+    }
+  
+    .card-btn {
+      margin-left: 30px;
+    }
+  
+    .tab-steps {
+      padding-right: 0px;
+    }
+  
+    .detroit-in-num_content_slider {
+      width: 470px;
+    }
+  
+    .container_detroit-in-num {
+      margin-top: 20px;
+      width: 450px;
+      height: 450px;
+    }
+  
+    .pagination_detroit-in-num {
+      top: 358px;
+      left: -147px;
+    }
+  
+    .button-prev-in-num {
+      top: 372px;
+      left: 215px;
+      background-image: url('../img/caret-left-solid.svg');
+    }
+  
+    .button-next-in-num {
+      top: 372px;
+      left: 310px;
+      background-image: url('../img/caret-right-solid.svg');
+    }
+  
+    .slider-container {
+      margin: 0 auto;
+    }
+  
+    .auto_from_usa-swiper {
+      width: 790px;
+    }
+  
+    .swiper-button-prev1 {
+      left: 335px;
+    }
+  
+    .swiper-button-next1 {
+      left: 425px;
+    }
+  
+    iframe {
+      width: 550px;
+    }
+  
+    .prices-card-prices p, .prices-card-offers p {
+      margin-bottom: 10px;
+    }
+  
+  
+    .offers-card-btn {
+      padding: 13px 85px;
+    }
+}
+  }
+  
+  @media (max-width: 900px) {
+      .page{
+    .header__content {
+      flex-direction: column;
+    }
+  
+    .header__text__main {
+      margin: 0 auto;
+      width: 90%;
+      font-size: 6rem;
+      line-height: 6rem;
+    }
+  
+    .header__text__sub {
+      width: 80%;
+      font-size: 3rem;
+      line-height: 3rem;
+      margin: 10px 0 0 45px;
+    }
+  
+    .header__form-offer {
+      padding: 10px;
+      margin: 20px auto 0;
+      width: 70%;
+    }
+  
+    .header__form-offer__items {
+      margin-top: 5px;
+    }
+  
+    .header__form-inner {
+      &.btn {
+        padding: 5px;
+        margin-top: 10px;
+      }
+  
+      padding: 5px;
+      margin-top: 10px;
+      width: 90%;
+      font-size: 1.4rem;
+    }
+  
+    .header__form-offer__text {
+      font-size: 2rem;
+    }
+  
+    .convenient-way__container__card__btn {
+      font-size: 1.1rem;
+      padding: 10px 40px;
+    }
+  
+    .container_reviews {
+      position: relative;
+      width: 750px;
+      height: 250px;
+      padding-bottom: 30px;
+      overflow: hidden;
+    }
+  
+    .card_reviews1_img {
+      width: 300px;
+      margin: 0;
+    }
+  
+    .card_review1_top-content_text_name {
+      font-size: 1.8rem;
+    }
+  
+    .card_review1_top-content_text_city {
+      font-size: 1.4rem;
+    }
+  
+    .card_review1_text {
+      padding: 2px 0;
+      font-size: 1.4rem;
+    }
+  
+    .card_review1_top-content {
+      padding: 5px;
+      margin-bottom: 0;
+    }
+  
+    .button-prev-reviews {
+      top: 234px;
+      left: 385px;
+    }
+  
+    .button-next-reviews {
+      top: 234px;
+      left: 475px;
+    }
+  
+    .pagination_reviews {
+      top: 220px;
+      left: 0;
+    }
+  
+    .comp-service__container__card {
+      padding: 245px 10px 20px 20px;
+    }
+  
+    .comp-service__container__card__title {
+      line-height: 2.5rem;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .machine-brands__form_img1 {
+      right: -550px;
+    }
+  
+    .machine-brands__form_img2 {
+      right: -20px;
+    }
+  
+    .tab_content-steps__img {
+      width: 450px;
+    }
+  
+    .subtab-steps {
+      height: 61px;
+    }
+  
+    .why-detroit__container_offer {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-radius: 55px;
+      margin-top: 40px;
+      width: 48%;
+      background: #1B1B1B;
+    }
+  
+    .why-detroit__container_offer_text {
+      font-weight: normal;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      padding: 0 10px 0 25px;
+    }
+  
+    .detroit-in-num_content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .detroit-in-num_content_slider {
+      margin: 0 auto;
+      width: 470px;
+    }
+  
+    .pagination_detroit-in-num {
+      top: 359px;
+      left: -40px;
+    }
+  
+    .button-prev-in-num {
+      top: 372px;
+      left: 175px;
+      background-image: url('../img/caret-left-solid.svg');
+    }
+  
+    .button-next-in-num {
+      top: 372px;
+      left: 266px;
+      background-image: url('../img/caret-right-solid.svg');
+    }
+  
+    iframe {
+      width: 400px;
+    }
+  
+    .wrapper-steps {
+      height: 300px;
+    }
+}
+  }
+  
+  @media (max-width: 768px) {
+      .page {
+        .machine-brands__form__title {
+          font-size: calc(18px + (24 + 24 * 0.7) * ((100vw - 320px) / 1180));
+          line-height: 3rem;
+        }
+      
+        .machine-brands__form__text {
+          font-size: calc(14px + (2 + 2 * 0.7) * ((100vw - 320px) / 1180));
+          color: #FFFFFF;
+        }
+      
+        .machine-brands__form__subtitle {
+          font-size: calc(16px + (6 + 6 * 0.7) * ((100vw - 320px) / 1180));
+        }
+    .header__form-offer-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 50px 0;
+    }
+  
+    .header__form-offer-img {
+      margin-top: 18px;
+  
+      img {
+        margin-bottom: 15px;
+      }
+    }
+  
+    .window1 {
+      padding-top: 100px;
+    }
+  
+    .header__offer-info {
+      display: none;
+    }
+  
+    .header__form-offer {
+      margin: 0;
+    }
+  
+    .header__form-offer-img {
+      display: block;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .headerInner {
+      justify-content: space-around;
+  
+      img {
+        width: 50%;
+      }
+    }
+  
+    .header__text__main {}
+  
+    .auto_from_usa-swiper {
+      width: 400px;
+    }
+  
+    .convenient-way__container__card__btn {
+      font-size: 1.1rem;
+      padding: 10px 10px;
+    }
+  
+    .nav-offer-btn {
+      margin-right: 10px;
+    }
+    .navbar__burger {
+      display: block;
+    }
+    .header__nav__link {
+      display: none;
+    }
+  
+    .swiper-pagination1 {
+      top: 465px;
+    }
+  
+    .wrapper-steps {
+      height: 250px;
+    }
+  
+    .tab_content-steps__img {
+      width: 350px;
+    }
+  
+    .subtab-steps {
+      height: 47.5px;
+      padding-left: 10px;
+    }
+  
+    .tab__num-steps {
+      font-size: 3rem;
+    }
+  
+    .tab__text-steps {
+      font-size: 1.3rem;
+      width: 90%;
+      line-height: 1.5rem;
+    }
+  
+    .material-icons.menu, .menu {
+      display: block;
+    }
+  
+    .header__offer-info_card {
+      margin-top: 10px;
+      padding: 10px;
+    }
+  
+    .header__offer-info_card_text {
+      font-size: 1.7rem;
+      line-height: 2rem;
+      padding: 0 5px;
+    }
+  
+    .header__contacts {
+      justify-content: space-around;
+    }
+  
+    .header__contacts__soc, .header__nav {
+      display: none;
+    }
+  
+    .slider-title {
+      margin-top: 0;
+      width: 100%;
+    }
+  
+    .detroit-in-num {
+      padding: 1rem;
+    }
+  
+    .convenient-way__container {
+      padding-top: 1rem;
+    }
+  
+    .convenient-way__container__title {
+      width: 100%;
+      font-size: 3.8rem;
+      margin-bottom: 20px;
+    }
+  
+    .machine-brands {
+      padding: 1rem;
+    }
+  
+    .machine-brands__title {
+      width: 100%;
+      margin-top: 0;
+    }
+  
+    .main-container {
+      margin-top: 20px;
+      flex-direction: column;
+    }
+  
+    .detroit-in-num_content {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .convenient-way__container__card {
+      background-position: 50% 50%;
+      padding-top: 0;
+      height: 200px;
+      padding-top: 165px;
+      margin-bottom: 170px;
+    }
+  
+    .convenient-way__container__card__title {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+  
+    .comp-service__container_title {
+      margin: 20px 0;
+    }
+  
+    .comp-service__container__card__text {
+      font-size: 1.6rem;
+    }
+  
+    .comp-service__container__card__title {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  
+    .machine-brands__form_img1 {
+      display: none;
+    }
+  
+    .machine-brands__form_img2 {
+      right: -100px;
+      bottom: -10px;
+    }
+  
+    .tab.tab-steps {
+      width: 250px;
+      padding-right: 0px;
+    }
+  
+    .card_review1_text {
+      padding: 4px 0;
+    }
+  
+    .container_reviews {
+      position: relative;
+      width: 600px;
+      height: 250px;
+      padding-bottom: 20px;
+      overflow: hidden;
+    }
+  
+    .pagination_reviews {
+      top: 155px;
+      margin-left: -190px;
+    }
+  
+    .card_review1_top-content {
+      margin-left: 30px;
+      padding: 10px;
+      width: 90%;
+      margin: 0;
+    }
+  
+    .card_reviews1_img {
+      width: 220px;
+      margin: 0;
+    }
+  
+    .comp-service__container__card__btn {
+      padding: 10px;
+      font-size: 1.5rem;
+      margin-left: 10px;
+    }
+  
+    .faq_container {
+      background: none;
+    }
+  
+    .faq_container_title {
+      font-size: 2.5rem;
+    }
+  
+    .faq_container_form {
+      max-width: 757px;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .detroit-in-num_content_slider {
+      margin: 0 auto;
+      width: 420px;
+    }
+  
+    .container_detroit-in-num {
+      margin-top: 20px;
+      width: 400px;
+      height: 350px;
+    }
+  
+    .pagination_detroit-in-num {
+      top: 315px;
+      left: -50px;
+    }
+  
+    .accardeon {
+      margin: 0 auto;
+      max-width: 650px;
+      min-width: 550px;
+    }
+  
+    .accardeon-title {
+      font-size: 1.6rem;
+    }
+  
+    .footer-contacts {
+      padding-top: 0px;
+    }
+  
+    .footer-contacts_container {
+      flex-direction: column;
+    }
+  
+    .footer-contacts__map {
+      margin: 0 auto;
+      width: 100%;
+    }
+  
+    iframe {
+      width: 100%;
+    }
+  
+    .footer-container {
+      justify-content: space-around;
+    }
+  
+    .footer-contacts__info {
+      text-align: center;
+    }
+  
+    .footer-contacts__city {}
+  
+    .footer-contacts__link {
+      justify-content: center;
+    }
+  
+    .footer-contacts__tels {
+      display: flex;
+    }
+  
+    .footer-contacts__tel {
+      margin-right: 10px;
+    }
+  
+    .swiper-button-prev, .swiper-button-next {
+      display: none;
+    }
+  
+    .swiper-container {
+      z-index: 0;
+    }
+  
+    .machine-brands__form-inner_btn, .machine-brands__form-inner {
+      width: 40%;
+    }
+  
+    .convenient-way__container__cards {
+      margin-bottom: 50px;
+    }
+}
+  }
+
+  @media (max-width: 600px) {
+      .page {
+    .prices-card-prices p, .prices-card-offers p {
+      margin-bottom: 5px;
+    }
+  
+    .prices-card {
+      height: 390px;
+      width: 372px;
+      top: -4px;
+      left: -20px;
+    }
+  
+    .offers-card-btn {
+      padding: 13px 85px;
+    }
+  
+    .headerInner.sticky .header__contacts {
+      display: none;
+    }
+  
+    .header__text__main {
+      width: 100%;
+      text-align: center;
+      font-size: 5rem;
+    }
+  
+    .header__text__sub {
+      width: 80%;
+      text-align: center;
+    }
+  
+    .convenient-way__container__card {
+      width: 70%;
+    }
+  
+    .slider-title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .auto_from_usa {
+      padding-bottom: 0;
+    }
+  
+    .auto_from_usa-swiper {
+      padding-top: 10px;
+      height: 480px;
+    }
+  
+    .swiper-pagination1 {
+      top: 400px;
+    }
+  
+    .detroit-in-num_title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .detroit-in-num_content_info_text {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .detroit-in-num_content_stat {
+      padding-right: 0;
+    }
+  
+    .detroit-in-num_content_stat1 {
+      width: 45%;
+      text-align: center;
+      margin-right: 10px;
+    }
+  
+    .detroit-in-num_content_stat2 {
+      width: 45%;
+      text-align: center;
+    }
+  
+    .detroit-in-num_content_slider {
+      margin: 0;
+      width: 100%;
+    }
+  
+    .convenient-way__container__title {
+      width: 100%;
+      text-align: center;
+      font-size: 3rem;
+      line-height: 3rem;
+    }
+  
+    .convenient-way__container {
+      padding-bottom: 0;
+    }
+  
+    .convenient-way__container__card {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .convenient-way__container__card__btn {
+      font-size: 1.5rem;
+    }
+  
+    .convenient-way__container__card {
+      &:first-child {
+        background: url(../img/bg__convenient__card1.png) 0% -10% no-repeat;
+        background-size: cover;
+      }
+  
+      &:nth-child(2) {
+        background: url(../img/bg__convenient__card2.png) 0% -10% no-repeat;
+        background-size: cover;
+      }
+  
+      &:last-child {
+        background: url(../img/bg__convenient__card3.png) 0% -10% no-repeat;
+        background-size: cover;
+      }
+    }
+  
+    .comp-service__container_title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .comp-service__container__cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .comp-service__container__card {
+      width: 100%;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .comp-service__container__card__text {
+      margin-bottom: 20px;
+    }
+  
+    .comp-service__container__card__btn {}
+  
+    .machine-brands__title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .machine-brands__form__container {
+      padding-bottom: 1rem;
+      margin-bottom: -60px;
+    }
+  
+    .machine-brands__form__title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+  
+    .machine-brands__form__text {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .machine-brands__form__subtitle {
+      width: 100%;
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .machine-brands__form-inner_btn, .machine-brands__form-inner {
+      width: 100%;
+      align-items: center;
+    }
+  
+    .why-detroit {
+      padding-bottom: 1rem;
+    }
+  
+    .why-detroit__title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .why-detroit__container {
+      flex-direction: column;
+    }
+  
+    .why-detroit__container_offer {
+      width: 100%;
+    }
+  
+    .steps {
+      padding-bottom: 0;
+    }
+  
+    .steps-container_title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+      margin-bottom: 0;
+    }
+  
+    .reviews {
+      padding-bottom: 0;
+    }
+  
+    .reviews_container {
+      padding-bottom: 2rem;
+    }
+  
+    .reviews_container_title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .container_reviews {
+      width: 413px;
+      height: 530px;
+    }
+  
+    .card_review1_top-content {
+      margin: 0 auto;
+    }
+  
+    .card_reviews1 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .card_reviews1_img {
+      width: 100%;
+    }
+  
+    .pagination_reviews {
+      margin: 0;
+      margin-top: 355px;
+    }
+  
+    .faq_container_title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .tab_content-steps__img {
+      display: none;
+      width: 0;
+    }
+  
+    .wrapper-steps {
+      justify-content: center;
+    }
+  
+    .tab.tab-steps {
+      width: 100%;
+    }
+  
+    .accardeon {
+      max-width: 400px;
+      min-width: 250px;
+      padding-bottom: 3rem;
+    }
+  
+    .accardeon-title {
+      font-size: 1.5rem;
+      padding-right: 50px;
+    }
+  
+    .faq_container_form_title, .footer-contacts__title {
+      width: 100%;
+      text-align: center;
+      line-height: 3rem;
+      font-size: 3rem;
+    }
+  
+    .footer-contacts__tels {
+      flex-direction: column;
+    }
+  
+    .convenient-way__container__cards {
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .machine-brands__form_img2 {
+      display: none;
+    }
+  
+    .faq_container_form {
+      align-items: center;
+      flex-direction: column;
+    }
+  
+    .faq__form-inner {
+      width: 90%;
+    }
+}
+  }
+  
+  @media (max-width: 450px) {
+      .page {
+    .prices-card-title {
+      margin-bottom: 5px;
+      text-align: center;
+    }
+  
+    .prices-card-prices p, .prices-card-offers p {
+      margin-bottom: 5px;
+    }
+  
+    .prices-card {
+      padding: 6px;
+      height: 390px;
+      width: 295px;
+      top: -4px;
+      left: -35px;
+    }
+  
+    .offers-card-btn {
+      margin-left: 5px;
+      padding: 13px 68px;
+    }
+  
+    .reviews_container {
+      padding-bottom: 0;
+    }
+  
+    .auto_from_usa-swiper {
+      width: 300px;
+    }
+  
+    .photocontainer2, .photocontainer1 {
+      background-position: 50% 0;
+    }
+  
+    .card-title {
+      font-size: 1.8rem;
+      margin-bottom: 5px;
+    }
+  
+    .card-btn {
+      font-size: 1.5rem;
+      padding: 10px 45px;
+    }
+  
+    .swiper-pagination1 {
+      top: 420px;
+    }
+  
+    .container_detroit-in-num {
+      width: 300px;
+      height: 300px;
+    }
+  
+    .pagination_detroit-in-num {
+      top: 250px;
+      left: 0px;
+    }
+  
+    .convenient-way__container__card__btn, .comp-service__container__card__btn {
+      padding: 10px 40px;
+    }
+  
+    .container_reviews {
+      width: 300px;
+    }
+    .modal {
+        padding: 20px 25px;
+        width: 350px;
+        min-height: 370px;
+        border-radius: 5px;
+        &__close {
+            position: absolute;
+            top: 0px;
+            right: 5px;
+            font-size: 31px;
+            line-height: 31px;
+            color: #000;
+            cursor: pointer;
+        }
+    }
+}
+  }
+  
+@media (max-width: 400px) {
+.page {
+    .machine-brands {
+        padding-bottom: 100px;
+    }
+
+    .machine-brands__form__container {
+        margin-bottom: 0;
+    }
+    }   
+}
