@@ -1855,7 +1855,11 @@ p {
 .header_burger {
     display: none;
 }
-
+iframe {
+    width:770px;
+    height:370px; 
+    border: none;
+}
 
 
 @media (max-width: 1170px) {
